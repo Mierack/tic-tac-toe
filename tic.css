@@ -1,3 +1,7 @@
+ body {
+  overflow-y: hidden;
+ }
+ 
  .row1,
       .row2,
       .row3 {
@@ -19,6 +23,7 @@
         position: absolute;
       }
       main {
+        margin-top: 100px;
         height: 817px;
         width: 100%;
         display: flex;
@@ -51,4 +56,11 @@
       }
       button:hover {
         background-color: rgb(172, 170, 170);
+      }
+
+      nav {
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        height: 55px;
+        width: 100%;
       }
